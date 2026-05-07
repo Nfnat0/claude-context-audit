@@ -1,0 +1,19 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin.json",
+  "name": "context-audit",
+  "version": "0.1.0",
+  "description": "Diagnose and fix Claude Code context-window bloat. Analyzes the current project's session transcripts, identifies the largest sources of token consumption (large file Reads, image Reads, noisy Bash output, etc.), proposes a tailored set of subagents / slash commands / hooks, and applies them to ~/.claude/ on confirmation.",
+  "author": {
+    "name": "claude-context-audit contributors"
+  },
+  "license": "MIT",
+  "keywords": [
+    "context",
+    "tokens",
+    "performance",
+    "subagent",
+    "hooks",
+    "audit",
+    "developer-tools"
+  ]
+}

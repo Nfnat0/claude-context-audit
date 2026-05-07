@@ -1,0 +1,23 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-marketplace.json",
+  "name": "claude-context-audit",
+  "owner": {
+    "name": "claude-context-audit contributors"
+  },
+  "plugins": [
+    {
+      "name": "context-audit",
+      "source": "./plugins/context-audit",
+      "description": "Diagnose and fix Claude Code context-window bloat. Analyzes session transcripts, proposes targeted subagents/commands/hooks, applies them at user scope.",
+      "category": "developer-tools",
+      "keywords": [
+        "context",
+        "tokens",
+        "performance",
+        "subagent",
+        "hooks",
+        "audit"
+      ]
+    }
+  ]
+}
